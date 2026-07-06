@@ -232,6 +232,8 @@ nav a:hover::after,
 
 .preview-task { background: #171725; }
 .preview-fin { background: #082018; }
+.preview-client { background: #101828; }
+.preview-insight { background: #f7f3ea; }
 
 .browser-bar {
   height: 38px;
