@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Emiliano Perales, desarrollador Full Stack.">
+  <meta name="theme-color" content="#09090b">
+  <title>Emiliano Perales — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-a"></div><div class="glow glow-b"></div>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Inicio">EP<span>.</span></a>
+      <div class="nav-links">
+        <a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a>
+      </div>
+      <a class="button button-small" href="https://github.com/Peraless" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="eyebrow"><span class="status-dot"></span> Disponible para nuevos proyectos</div>
+      <h1>Creo productos digitales que se sienten <span>simples.</span></h1>
+      <p class="hero-copy">Soy Emiliano Perales, desarrollador Full Stack. Diseño y construyo experiencias web rápidas, útiles y con atención al detalle.</p>
+      <div class="hero-actions">
+        <a class="button" href="#proyectos">Ver mi trabajo ↓</a>
+        <a class="text-link" href="https://github.com/Peraless" target="_blank" rel="noreferrer">github.com/Peraless ↗</a>
+      </div>
+      <div class="stack-line" aria-label="Tecnologías">
+        <span>HTML</span><i></i><span>CSS</span><i></i><span>JavaScript</span><i></i><span>TypeScript</span><i></i><span>React</span><i></i><span>Node.js</span>
+      </div>
+    </section>
+
+    <section class="section container" id="proyectos">
+      <div class="section-heading"><div><p class="kicker">Trabajo seleccionado</p><h2>Proyectos con intención.</h2></div><p>No solo se ven bien: funcionan, guardan datos y resuelven tareas concretas.</p></div>
+      <div class="projects-grid">
+        <article class="project project-featured">
+          <div class="project-visual visual-taskflow"><div class="mock-window"><div class="mock-top"><b></b><b></b><b></b></div><div class="kanban-mini"><div><span></span><span></span></div><div><span></span><span></span><span></span></div><div><span></span></div></div></div></div>
+          <div class="project-content"><span class="number">01</span><h3>TaskFlow</h3><p>Tablero Kanban para organizar tareas, moverlas entre etapas y mantener el avance guardado en el navegador.</p><div class="tags"><span>JavaScript</span><span>Drag & Drop</span><span>LocalStorage</span></div><div class="project-links"><a href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/Peraless/taskflow" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+        </article>
+        <article class="project">
+          <div class="project-visual visual-fintrack"><div class="chart-card"><small>Balance total</small><strong>$24,860</strong><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+          <div class="project-content"><span class="number">02</span><h3>FinTrack</h3><p>Panel de finanzas personales para registrar movimientos y entender hábitos con estadísticas visuales.</p><div class="tags"><span>JavaScript</span><span>Canvas API</span><span>Responsive</span></div><div class="project-links"><a href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/Peraless/fintrack" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+        </article>
+        <article class="project">
+          <div class="project-visual visual-love"><div class="love-orbit"><span>♥</span></div></div>
+          <div class="project-content"><span class="number">03</span><h3>Un mes contigo</h3><p>Una experiencia web creativa y personal que combina diseño, interacción y narrativa visual.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Experiencia visual</span></div><div class="project-links"><a href="https://github.com/Peraless/un-mes-contigo" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about container" id="sobre-mi">
+      <div><p class="kicker">Sobre mí</p><h2>De la idea al deploy.</h2></div>
+      <div class="about-copy"><p>Me gusta construir productos completos: una interfaz clara, lógica confiable y los detalles que hacen que usarla sea agradable.</p><p>Trabajo con tecnologías web modernas y aprendo rápido cuando un proyecto pide algo nuevo. Mi objetivo siempre es el mismo: que lo complejo se sienta sencillo.</p><div class="principles"><span>01 · Claridad</span><span>02 · Rendimiento</span><span>03 · Buen diseño</span></div></div>
+    </section>
+
+    <section class="contact container" id="contacto">
+      <p class="kicker">¿Construimos algo?</p><h2>Una buena idea merece<br><span>salir del borrador.</span></h2><p>Estoy abierto a colaborar en proyectos web, productos digitales y nuevas oportunidades.</p><a class="button" href="https://github.com/Peraless" target="_blank" rel="noreferrer">Hablemos en GitHub ↗</a>
+    </section>
+  </main>
+  <footer class="container"><span>© <span id="year"></span> Emiliano Perales</span><span>Diseñado y construido con intención.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
