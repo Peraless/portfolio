@@ -1,195 +1,140 @@
 <!doctype html>
-<html lang="es" data-theme="dark">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio de Emiliano Perales, Full Stack Developer. Productos web, interfaces y experiencias digitales.">
-  <meta name="theme-color" content="#07070a">
+  <meta name="description" content="Portafolio de Emiliano Perales, desarrollador Full Stack.">
+  <meta name="theme-color" content="#f1eee7">
   <meta property="og:title" content="Emiliano Perales — Full Stack Developer">
-  <meta property="og:description" content="Diseño y desarrollo productos web rápidos, útiles y visualmente memorables.">
+  <meta property="og:description" content="Proyectos web de Emiliano Perales.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://peraless.github.io/portfolio/">
   <title>Emiliano Perales — Full Stack Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="cursor-glow" aria-hidden="true"></div>
+  <a class="skip" href="#main">Saltar al contenido</a>
 
-  <header class="nav-shell">
-    <nav class="nav container" aria-label="Navegación principal">
-      <a class="brand" href="#inicio" aria-label="Emiliano Perales, inicio">
-        <span class="brand-mark">EP</span><span class="brand-name">Emiliano Perales</span>
-      </a>
-      <div class="nav-links">
-        <a href="#proyectos">Proyectos</a>
-        <a href="#capacidades">Capacidades</a>
-        <a href="#sobre-mi">Sobre mí</a>
-      </div>
-      <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema"><span aria-hidden="true">◐</span></button>
-        <a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a>
-      </div>
+  <header class="site-header wrap">
+    <a class="name" href="#top">Emiliano Perales</a>
+    <nav aria-label="Navegación principal">
+      <a href="#trabajo">Trabajo</a>
+      <a href="#acerca">Acerca</a>
+      <a href="https://github.com/Peraless" target="_blank" rel="noreferrer">GitHub ↗</a>
     </nav>
   </header>
 
-  <main id="contenido">
-    <section class="hero container" id="inicio">
-      <div class="hero-copy reveal">
-        <div class="availability"><span></span> Disponible para colaborar</div>
-        <p class="hero-role">FULL STACK DEVELOPER · MÉXICO</p>
-        <h1>Ideas complejas.<br><em>Experiencias simples.</em></h1>
-        <p class="hero-lead">Soy Emiliano Perales. Diseño y desarrollo productos digitales completos: desde la interfaz que enamora hasta la lógica que hace que todo funcione.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↓</span></a>
-          <a class="button button-ghost" href="https://github.com/Peraless" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+  <main id="main">
+    <section class="intro wrap" id="top">
+      <p class="index">PORTAFOLIO / 2026</p>
+      <h1>Hola, soy Emiliano.<br>Hago cosas para <em>la web.</em></h1>
+      <div class="intro-bottom">
+        <p>Desarrollo aplicaciones completas: pienso la interfaz, escribo la lógica y dejo el proyecto funcionando en internet.</p>
+        <div class="intro-note">
+          <span>Full Stack Developer</span>
+          <span>HTML · CSS · JavaScript · TypeScript</span>
         </div>
       </div>
+      <a class="scroll-note" href="#trabajo"><span>↓</span> Dos proyectos recientes</a>
+    </section>
 
-      <div class="hero-stage reveal" data-delay="1" aria-label="Vista previa del espacio de trabajo de Emiliano">
-        <div class="stage-orbit orbit-one"></div>
-        <div class="stage-orbit orbit-two"></div>
-        <div class="code-card tilt-card">
-          <div class="window-bar"><div class="traffic"><i></i><i></i><i></i></div><span>emiliano.ts</span><b>⌘ K</b></div>
-          <div class="code-body" aria-hidden="true">
-            <div><span class="ln">01</span><span class="pink">const</span> <span class="blue">developer</span> = {</div>
-            <div><span class="ln">02</span>&nbsp;&nbsp;name: <span class="green">'Emiliano'</span>,</div>
-            <div><span class="ln">03</span>&nbsp;&nbsp;role: <span class="green">'Full Stack'</span>,</div>
-            <div><span class="ln">04</span>&nbsp;&nbsp;focus: [</div>
-            <div><span class="ln">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">'UX'</span>, <span class="green">'Performance'</span>,</div>
-            <div><span class="ln">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">'Clean code'</span></div>
-            <div><span class="ln">07</span>&nbsp;&nbsp;],</div>
-            <div><span class="ln">08</span>&nbsp;&nbsp;shipping: <span class="orange">true</span></div>
-            <div><span class="ln">09</span>};<span class="caret"></span></div>
+    <section class="work wrap" id="trabajo">
+      <div class="section-label">
+        <span>01</span>
+        <p>Trabajo seleccionado</p>
+        <i></i>
+      </div>
+
+      <article class="project">
+        <div class="project-heading">
+          <div>
+            <p class="project-kicker">Productividad / 2026</p>
+            <h2>TaskFlow</h2>
           </div>
-          <div class="code-status"><span>● main</span><span>JavaScript&nbsp;&nbsp; UTF-8&nbsp;&nbsp; ✓</span></div>
+          <a href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer">Abrir proyecto ↗</a>
         </div>
-        <div class="float-chip chip-react"><span>⚛</span> React</div>
-        <div class="float-chip chip-node"><span>⬢</span> Node.js</div>
-        <div class="float-chip chip-type"><span>TS</span> TypeScript</div>
-        <div class="build-badge"><i>✓</i><div><small>BUILD</small><strong>Listo para producción</strong></div></div>
-      </div>
-    </section>
 
-    <section class="signal-bar" aria-label="Resumen profesional">
-      <div class="container signal-grid">
-        <div><strong>01</strong><span>Full Stack<br>de principio a fin</span></div>
-        <div><strong id="repoCount">4+</strong><span>Proyectos<br>construidos</span></div>
-        <div><strong>100%</strong><span>Responsive<br>por diseño</span></div>
-        <div><strong>∞</strong><span>Curiosidad<br>para aprender</span></div>
-      </div>
-    </section>
+        <a class="live-preview preview-task" href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer" aria-label="Abrir TaskFlow">
+          <div class="browser-bar"><span></span><span></span><span></span><p>peraless.github.io/taskflow</p></div>
+          <iframe src="https://peraless.github.io/taskflow/" title="Vista de TaskFlow" loading="lazy" tabindex="-1"></iframe>
+          <b class="open-corner">↗</b>
+        </a>
 
-    <section class="section container" id="proyectos">
-      <div class="section-intro reveal">
-        <div><p class="eyebrow">01 · PROYECTOS DESTACADOS</p><h2>Trabajo que habla<br><span>por sí mismo.</span></h2></div>
-        <p>Cada proyecto combina una necesidad concreta, decisiones de producto y una ejecución cuidada de punta a punta.</p>
-      </div>
+        <div class="project-details">
+          <p class="project-summary">Un tablero para organizar tareas sin cuentas, instalaciones ni ruido. Los cambios se guardan directamente en el navegador.</p>
+          <dl>
+            <div><dt>Qué hace</dt><dd>Crea, busca y mueve tareas entre etapas con drag & drop.</dd></div>
+            <div><dt>Lo interesante</dt><dd>Estado persistente, prioridades, fechas y progreso calculado.</dd></div>
+            <div><dt>Hecho con</dt><dd>JavaScript, LocalStorage y Drag & Drop API.</dd></div>
+          </dl>
+          <div class="project-links"><a href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer">Ver sitio</a><a href="https://github.com/Peraless/taskflow" target="_blank" rel="noreferrer">Ver código</a></div>
+        </div>
+      </article>
 
-      <div class="project-list">
-        <article class="case-study reveal">
-          <a class="case-visual taskflow-preview tilt-card" href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer" aria-label="Abrir demo de TaskFlow">
-            <div class="preview-toolbar"><span><i></i><i></i><i></i></span><b>taskflow.app</b><em>↗</em></div>
-            <div class="task-ui">
-              <div class="task-side"><div class="mini-logo">✓</div><i></i><i></i><i></i><i></i></div>
-              <div class="task-main">
-                <div class="task-title"><span><b>Mi tablero</b><small>Proyecto personal</small></span><button>+ Nueva tarea</button></div>
-                <div class="mini-stats"><span><b>08</b><small>Total</small></span><span><b>03</b><small>Activas</small></span><span><b>62%</b><small>Progreso</small></span></div>
-                <div class="mini-board"><div><b>Por hacer</b><span></span><span></span></div><div><b>En progreso</b><span></span><span></span></div><div><b>Listo</b><span></span></div></div>
-              </div>
-            </div>
-          </a>
-          <div class="case-info">
-            <div class="case-number">01 / 02</div>
-            <div><p class="case-type">PRODUCTIVIDAD · WEB APP</p><h3>TaskFlow</h3><p>Un tablero Kanban ligero que convierte pendientes dispersos en un flujo de trabajo visual, enfocado y persistente.</p></div>
-            <div class="case-bottom"><div class="tags"><span>JavaScript</span><span>Drag & Drop</span><span>LocalStorage</span></div><div class="case-links"><a href="https://peraless.github.io/taskflow/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/Peraless/taskflow" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+      <article class="project">
+        <div class="project-heading">
+          <div>
+            <p class="project-kicker">Finanzas personales / 2026</p>
+            <h2>FinTrack</h2>
           </div>
-        </article>
-
-        <article class="case-study case-reverse reveal">
-          <a class="case-visual fintrack-preview tilt-card" href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer" aria-label="Abrir demo de FinTrack">
-            <div class="preview-toolbar"><span><i></i><i></i><i></i></span><b>fintrack.app</b><em>↗</em></div>
-            <div class="finance-ui">
-              <div class="fin-nav"><div class="fin-logo">F</div><span class="active"></span><span></span><span></span></div>
-              <div class="fin-main"><small>RESUMEN FINANCIERO</small><h4>Buenos días, Emiliano</h4><div class="fin-cards"><div><small>Balance</small><b>$10,111</b></div><div><small>Ingresos</small><b>$18,500</b></div><div><small>Gastos</small><b>$8,389</b></div></div><div class="fin-chart"><div class="chart-label"><b>Flujo de dinero</b><span>Este mes</span></div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
-            </div>
-          </a>
-          <div class="case-info">
-            <div class="case-number">02 / 02</div>
-            <div><p class="case-type">FINTECH · DASHBOARD</p><h3>FinTrack</h3><p>Finanzas personales sin ruido: movimientos, balance y hábitos convertidos en información visual fácil de entender.</p></div>
-            <div class="case-bottom"><div class="tags"><span>JavaScript</span><span>Canvas API</span><span>Data UI</span></div><div class="case-links"><a href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/Peraless/fintrack" target="_blank" rel="noreferrer">Código ↗</a></div></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section capabilities" id="capacidades">
-      <div class="container">
-        <div class="section-intro reveal">
-          <div><p class="eyebrow">02 · LO QUE HAGO</p><h2>Una visión completa<br><span>del producto.</span></h2></div>
-          <p>No separo “que funcione” de “que se sienta bien”. Trabajo ambas partes como un mismo sistema.</p>
+          <a href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer">Abrir proyecto ↗</a>
         </div>
-        <div class="bento-grid">
-          <article class="bento bento-large reveal">
-            <div class="bento-icon icon-purple">⌘</div><p class="eyebrow">INTERFACES</p><h3>Frontend que se siente vivo.</h3><p>Interfaces responsive, accesibles y rápidas, con microinteracciones que ayudan en lugar de distraer.</p>
-            <div class="layers-visual" aria-hidden="true"><i></i><i></i><i></i><span>UI</span></div>
-          </article>
-          <article class="bento bento-code reveal" data-delay="1">
-            <div class="bento-icon icon-cyan">{ }</div><p class="eyebrow">LÓGICA</p><h3>Backend que aguanta.</h3><p>Flujos claros, datos organizados y lógica que hace el producto confiable.</p>
-            <div class="api-visual" aria-hidden="true"><span>POST</span><code>/api/ideas</code><b>201</b></div>
-          </article>
-          <article class="bento bento-wide reveal">
-            <div><div class="bento-icon icon-green">↗</div><p class="eyebrow">PRODUCTO</p><h3>De “tengo una idea” a “ya está en línea”.</h3><p>Defino el problema, construyo una primera versión, pruebo, mejoro y despliego.</p></div>
-            <div class="process-mini" aria-hidden="true"><span><b>01</b>Entender</span><i></i><span><b>02</b>Construir</span><i></i><span><b>03</b>Publicar</span></div>
-          </article>
-          <article class="bento bento-stack reveal" data-delay="1">
-            <p class="eyebrow">STACK FAVORITO</p><h3>Herramientas para construir.</h3>
-            <div class="stack-cloud"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Git</span><span>GitHub</span></div>
-          </article>
+
+        <a class="live-preview preview-fin" href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer" aria-label="Abrir FinTrack">
+          <div class="browser-bar"><span></span><span></span><span></span><p>peraless.github.io/fintrack</p></div>
+          <iframe src="https://peraless.github.io/fintrack/" title="Vista de FinTrack" loading="lazy" tabindex="-1"></iframe>
+          <b class="open-corner">↗</b>
+        </a>
+
+        <div class="project-details">
+          <p class="project-summary">Una forma sencilla de registrar ingresos y gastos y entender a dónde se está yendo el dinero.</p>
+          <dl>
+            <div><dt>Qué hace</dt><dd>Registra movimientos, filtra datos y calcula el balance.</dd></div>
+            <div><dt>Lo interesante</dt><dd>La gráfica se dibuja desde cero con Canvas, sin librerías.</dd></div>
+            <div><dt>Hecho con</dt><dd>JavaScript, Canvas API y LocalStorage.</dd></div>
+          </dl>
+          <div class="project-links"><a href="https://peraless.github.io/fintrack/" target="_blank" rel="noreferrer">Ver sitio</a><a href="https://github.com/Peraless/fintrack" target="_blank" rel="noreferrer">Ver código</a></div>
         </div>
+      </article>
+    </section>
+
+    <section class="about wrap" id="acerca">
+      <div class="section-label">
+        <span>02</span>
+        <p>Un poco sobre mí</p>
+        <i></i>
       </div>
-    </section>
-
-    <section class="tech-marquee" aria-label="Tecnologías">
-      <div class="marquee-track"><span>HTML5</span><i>✦</i><span>CSS3</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i><span>TYPESCRIPT</span><i>✦</i><span>REACT</span><i>✦</i><span>NODE.JS</span><i>✦</i><span>GIT</span><i>✦</i><span>HTML5</span><i>✦</i><span>CSS3</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i><span>TYPESCRIPT</span></div>
-    </section>
-
-    <section class="section container about" id="sobre-mi">
-      <div class="about-heading reveal"><p class="eyebrow">03 · SOBRE MÍ</p><h2>Curioso por naturaleza.<br><span>Constructor por elección.</span></h2></div>
       <div class="about-grid">
-        <div class="about-copy reveal"><p class="lead">Me gusta entrar a un problema, entender qué importa de verdad y convertirlo en una experiencia clara.</p><p>Disfruto tanto pulir un detalle visual como ordenar la lógica detrás de él. Ese equilibrio es lo que me llevó al desarrollo Full Stack: poder conectar todas las piezas y cuidar el resultado completo.</p><p>Cuando no estoy construyendo, probablemente estoy aprendiendo una herramienta nueva o encontrando una manera más simple de hacer algo complicado.</p><a class="text-arrow" href="https://github.com/Peraless" target="_blank" rel="noreferrer">Conoce mi trabajo en GitHub <span>↗</span></a></div>
-        <div class="terminal-card reveal" data-delay="1">
-          <div class="terminal-top"><span>Terminal</span><b>− □ ×</b></div>
-          <div class="terminal-body"><p><i>➜</i> whoami</p><p class="output">Emiliano Perales</p><p><i>➜</i> current_role</p><p class="output">Full Stack Developer</p><p><i>➜</i> values --list</p><p class="output">claridad · curiosidad · detalle</p><p><i>➜</i> status</p><p class="output success">● listo para construir algo nuevo</p><p><i>➜</i> <span class="terminal-caret"></span></p></div>
+        <h2>Me interesa más hacer algo útil que agregar tecnología porque sí.</h2>
+        <div class="about-copy">
+          <p>Me llamo Emiliano Perales y soy desarrollador Full Stack. Disfruto tomar una idea todavía medio borrosa y convertirla en una interfaz clara que realmente funciona.</p>
+          <p>Estos proyectos son pequeños a propósito: me permiten cuidar la experiencia completa, desde el primer boceto hasta la publicación.</p>
+          <p>Este portafolio también está hecho a mano con HTML, CSS y JavaScript. Sin plantilla y sin framework.</p>
         </div>
       </div>
-    </section>
 
-    <section class="section container github-section">
-      <div class="github-card reveal">
-        <div class="github-head"><div><span class="github-icon">⌘</span><div><p class="eyebrow">EN VIVO DESDE GITHUB</p><h2>Construyendo en público.</h2></div></div><a href="https://github.com/Peraless?tab=repositories" target="_blank" rel="noreferrer">Ver repositorios ↗</a></div>
-        <div class="repo-feed" id="repoFeed" aria-live="polite"><div class="repo-skeleton"></div><div class="repo-skeleton"></div><div class="repo-skeleton"></div></div>
+      <div class="tool-row" aria-label="Tecnologías que utilizo">
+        <p>Trabajo con</p>
+        <div><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Node.js</span><span>Git</span></div>
       </div>
     </section>
 
-    <section class="contact container reveal" id="contacto">
-      <div class="contact-grid"></div>
-      <p class="eyebrow">04 · SIGUIENTE PASO</p>
-      <h2>¿Tienes una idea?<br><span>Hagámosla real.</span></h2>
-      <p>Estoy abierto a oportunidades, colaboraciones y proyectos donde una buena ejecución haga la diferencia.</p>
-      <div class="contact-actions"><a class="button button-light" href="https://github.com/Peraless" target="_blank" rel="noreferrer">Empezar una conversación <span>↗</span></a><span>Normalmente respondo pronto.</span></div>
+    <section class="contact wrap">
+      <p class="index">SIGUIENTE / CONTACTO</p>
+      <h2>Si tienes una idea,<br><em>podemos platicarla.</em></h2>
+      <a class="contact-link" href="https://github.com/Peraless" target="_blank" rel="noreferrer">Escríbeme por GitHub <span>↗</span></a>
     </section>
   </main>
 
-  <footer class="container">
-    <div class="footer-brand"><span class="brand-mark">EP</span><div><strong>Emiliano Perales</strong><small>Full Stack Developer</small></div></div>
-    <div class="footer-links"><a href="#inicio">Volver arriba ↑</a><a href="https://github.com/Peraless" target="_blank" rel="noreferrer">GitHub ↗</a></div>
-    <p>© <span id="year"></span> · Diseñado y construido con intención.</p>
+  <footer class="wrap">
+    <p>Emiliano Perales · Full Stack Developer</p>
+    <p>Hecho a mano en 2026.</p>
+    <a href="#top">Volver arriba ↑</a>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
