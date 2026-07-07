@@ -6,7 +6,7 @@ Portafolio personal de Emiliano Perales, Full Stack Developer. Está diseñado c
 
 - Presentación directa y más humana
 - Dirección visual cálida con tipografía editorial
-- Previews reales embebidos de TaskFlow, FinTrack, ClientFlow e InsightBoard
+- Previews reales embebidos de SupportDesk Pro, CommercePulse, TaskFlow, FinTrack, ClientFlow e InsightBoard
 - Casos de proyecto con contexto, decisiones y enlaces
 - Sección breve sobre Emiliano y su forma de trabajar
 - Diseño responsive para móvil, tablet y escritorio

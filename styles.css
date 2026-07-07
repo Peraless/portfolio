@@ -234,6 +234,8 @@ nav a:hover::after,
 .preview-fin { background: #082018; }
 .preview-client { background: #101828; }
 .preview-insight { background: #f7f3ea; }
+.preview-support { background: #0f172a; }
+.preview-commerce { background: #eff6ff; }
 
 .browser-bar {
   height: 38px;
